@@ -73,6 +73,7 @@ h2 {
     width: 20%;
     font-size: 20px;
     font-weight: bold;
+    text-align: justify;
     margin: 20px;
     color: rgb(113, 113, 216);
 }
@@ -126,15 +127,19 @@ h2 {
     }
     h2 {
         text-align: center;
+        font-size: 2rem;
     }
     .conteudo-sobre {
-        text-align: center;
+        text-align: justify;
+        border: 1px solid rgb(113, 113, 216);
+        font-size: 1.5rem;
+        width: 80%;
     }
     .container-produtos {
         flex-direction: column-reverse;
         flex-shrink: 2;
     }
     .img-produtos {
-        width: 25%;
+        width: 55%;
     }
 }
